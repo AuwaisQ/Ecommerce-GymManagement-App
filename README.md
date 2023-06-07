@@ -7,5 +7,4 @@
     - Gym Managment
     - Gym, Yoga, plans, and many more things.
 
-
-![login](https://github.com/AuwaisQ/Ecommerce-GymManagement-App/assets/53910217/ad98e2bd-9dbe-4402-a64e-d9ac6c96ce31)
+![login](https://github.com/AuwaisQ/Ecommerce-GymManagement-App/assets/53910217/df840050-59ea-49fb-a4df-e3494dcd9a54)
