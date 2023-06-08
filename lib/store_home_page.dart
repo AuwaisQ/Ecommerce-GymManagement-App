@@ -68,6 +68,7 @@ class _StoreHomePageState extends State<StoreHomePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
+                          IconButton(onPressed: (){Navigator.pop(context);}, icon: Icon(Icons.arrow_back,color: Colors.white,)),
                           Text(
                             'OMARK',
                             style: TextStyle(
@@ -87,9 +88,9 @@ class _StoreHomePageState extends State<StoreHomePage> {
                                       },
                                       child: Image.asset(
                                         'images/shoppingbag.png',
-                                        height: 25.h,
-                                        width: 25.w,
-                                        fit: BoxFit.cover,
+                                        height: 21.h,
+                                        width: 21.w,
+                                        // fit: BoxFit.cover,
                                       ),
                                     ),
                                   ),

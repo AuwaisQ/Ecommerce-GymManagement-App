@@ -38,7 +38,7 @@ class _LoginPageState extends State<LoginPage> {
             Padding(
               padding: EdgeInsets.only(bottom: 400.h),
               child: DelayedDisplay(
-                delay: const Duration(milliseconds: 1500),
+                delay: const Duration(milliseconds: 500),
                 // slidingBeginOffset: const Offset(0.0, 0.7),
                 child: WidgetCircularAnimator(
                   size: 210,

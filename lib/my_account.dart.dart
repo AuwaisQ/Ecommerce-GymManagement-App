@@ -26,8 +26,7 @@ class _MyAccountState extends State<MyAccount> {
     return Scaffold(
       key: _scaffoldKey,
       endDrawer: Theme(
-          data: Theme.of(context)
-              .copyWith(canvasColor: backgroundColor.withOpacity(0.9)),
+          data: Theme.of(context).copyWith(canvasColor: backgroundColor.withOpacity(0.9)),
           child: const AppDrawer()),
       backgroundColor: backgroundColor,
       body: SafeArea(

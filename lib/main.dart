@@ -16,21 +16,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      builder: () => MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'OMARK',
-        theme: ThemeData(fontFamily: 'Poppins'),
-        home: AnimatedSplashScreen(
-          duration: 0,
-          splashIconSize: 300,
-          splash: Image.asset('images/omarklogo.png'),
-          nextScreen: const LoginPage(),
-          splashTransition: SplashTransition.scaleTransition,
-          animationDuration: const Duration(milliseconds: 1000),
-          backgroundColor: backgroundColor,
-        ),
-      ),
       designSize: const Size(360, 800),
+      builder: (BuildContext context, Widget? child) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'OMARK',
+          theme: ThemeData(fontFamily: 'Poppins'),
+          home: AnimatedSplashScreen(
+            duration: 0,
+            splashIconSize: 300,
+            splash: Image.asset('images/omarklogo.png'),
+            nextScreen: const LoginPage(),
+            splashTransition: SplashTransition.scaleTransition,
+            animationDuration: const Duration(milliseconds: 1000),
+            backgroundColor: backgroundColor,
+          ),
+        );
+      },
     );
   }
 }
